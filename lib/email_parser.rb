@@ -8,7 +8,6 @@ class EmailAddressParser
  @@all 
  
  def parse(email_addresses)
-   email_addresses.split(",").map { |s| s}
-   
+   email_addresses.split(",")
  end 
  end 
